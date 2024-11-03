@@ -20,8 +20,7 @@ app = FastAPI(title="EaseReader API", description="Chat with multiple PDFs")
 
 
 origins = [
-    "http://localhost:5173",  # Allow your frontend origin
-    # You can add other origins here if needed
+  ["*"]
 ]
 
 app.add_middleware(
