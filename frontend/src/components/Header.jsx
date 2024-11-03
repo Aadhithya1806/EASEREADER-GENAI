@@ -35,7 +35,7 @@ const Header = () => {
 
     // Send the FormData to the server
     try {
-      const response = await fetch("http://127.0.0.1:8000/process_documents/", {
+      const response = await fetch("https://easereader-genai-backend-rest.onrender.com/process_documents/", {
         method: "POST",
         body: formData, // Send FormData directly
       });
