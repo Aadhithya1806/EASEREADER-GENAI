@@ -28,7 +28,7 @@ const MessageInput = () => {
 
       try {
         // Send request to the backend with the form data
-        const response = await fetch("http://127.0.0.1:8000/ask_question", {
+        const response = await fetch("https://easereader-genai-backend-rest.onrender.com/ask_question", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
