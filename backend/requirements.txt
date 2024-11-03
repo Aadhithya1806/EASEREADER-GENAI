@@ -8,4 +8,5 @@ python-dotenv
 streamlit
 pydantic
 google-generativeai
+python-multipart
 langchain_community
