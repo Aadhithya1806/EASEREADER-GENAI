@@ -20,8 +20,11 @@ app = FastAPI(title="EaseReader API", description="Chat with multiple PDFs")
 
 
 origins = [
-  ["*"]
+    "http://localhost:5173",
+    "https://easereader-genai-3ni1.vercel.app",  
+    # Add other trusted origins here if necessary
 ]
+
 
 app.add_middleware(
     CORSMiddleware,
