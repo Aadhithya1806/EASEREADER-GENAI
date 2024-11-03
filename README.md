@@ -3,7 +3,7 @@
 # SETUP INSTRUCTIONS:
 # CLONE THE DIRECTORY:
 ```
-https://github.com/Aadhithya1806/EASEREADER-GENAI.git
+git clone https://github.com/Aadhithya1806/EASEREADER-GENAI.git
 ```
 
 # FRONTEND SETUP:
